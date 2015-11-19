@@ -2,6 +2,8 @@
 
 Auto compile LESS file on save.
 
+Added support for PostCSS plugins.
+
 ---
 
 Add the parameters on the first line of the LESS file.
