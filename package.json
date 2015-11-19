@@ -2,15 +2,21 @@
   "name": "less-autocompile",
   "main": "./lib/less-autocompile",
   "version": "1.0.0",
-  "description": "Auto compile LESS",
-  "repository": "https://github.com/lohek/less-autocompile",
+  "description": "Auto compile LESS and process with PostCSS",
+  "repository": "https://github.com/tnottu/less-autocompile",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">=1.2.0<2.0.0"
   },
   "dependencies": {
     "async": "^0.9.0",
-    "less": "^2.3.1",
-    "mkdirp": "^0.5.0"
+    "less": "^2.5.3",
+    "less-plugin-autoprefix": "^1.4.2",
+    "less-plugin-clean-css": "^1.5.0",
+    "mkdirp": "^0.5.0",
+    "postcss": "^5.0.12",
+	"oldie": "^1.3.0",
+    "autoprefixer": "^6.1.0",
+	"cssnano": "^3.3.1"
   }
 }
