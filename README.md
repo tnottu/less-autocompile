@@ -1,8 +1,11 @@
-# less-autocompile package
+# less-postcss-autocompile package
 
-Auto compile LESS file on save.
+Auto compile LESS file on save and process the CSS further with [PostCSS](https://github.com/postcss/postcss) plugins.
 
-Added support for PostCSS plugins.
+Currently supports these PostCSS plugins:
+ * [autoprefixer](https://github.com/postcss/autoprefixer)
+ * [oldie](https://github.com/jonathantneal/oldie)
+ * [cssnano](https://github.com/ben-eb/cssnano)
 
 ---
 
