@@ -1,9 +1,9 @@
 {
-  "name": "less-autocompile",
-  "main": "./lib/less-autocompile",
+  "name": "less-postcss-autocompile",
+  "main": "./lib/less-postcss-autocompile.js",
   "version": "1.0.0",
-  "description": "Auto compile LESS and process with PostCSS",
-  "repository": "https://github.com/tnottu/less-autocompile",
+  "description": "Auto compile LESS and process with PostCSS plugins",
+  "repository": "https://github.com/tnottu/less-postcss-autocompile",
   "license": "MIT",
   "engines": {
     "atom": ">=1.2.0<2.0.0"
