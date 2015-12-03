@@ -18,7 +18,7 @@ Add the parameters on the first line of the LESS file.
 | compress      | boolean        | Compress CSS file           |
 | main          | string         | Path to your main LESS file to be compiled. Separate multiple files with "&#124;" |
 | autoprefixer  | boolean&#124;string | Boolean value uses default settings. String value is passed as [browserslist](https://github.com/ai/browserslist#queries) to the autoprefixer-plugin. Separate multiple entires with a ";" character.
-| oldie         | true           | Oldie makes a separate IE8 compatible version of the CSS file (removes mediaqueries etc). |
+| oldie         | boolean        | Oldie makes a separate IE8 compatible version of the CSS file (removes mediaqueries etc). |
 
 ## Example
 `styles/main.less`
